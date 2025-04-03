@@ -12,8 +12,8 @@ function Skills() {
 
   return (
     <section id="skills" className="py-10 text-center">
-      <h2 className="text-3xl font-bold">Habilidades</h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-4">
+      <h1 className="text-3xl font-bold">Habilidades</h1>
+      <div className="grid grid-cols-3 gap-4 mt-4">
         {skills.map((skill, index) => (
           <div key={index} className="p-4 bg-gray-800 rounded-lg text-white flex flex-col items-center w-24 h-24 md:w-32 md:h-32 overflow-hidden">
             <img 

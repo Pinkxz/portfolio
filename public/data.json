@@ -1,13 +1,13 @@
 {
     "skills": [
-      { "name": "Java", "image": "/images/java-original.svg" },
-      { "name": "C", "image": "/images/c-original.svg" },
-      { "name": "C++", "image": "/images/cplusplus-original.svg" },
-      { "name": "Spring", "image": "/images/spring-original.svg" },
-      { "name": "PostgreSQL", "image": "/images/postgresql-original.svg" },
-      { "name": "HTML", "image": "/images/html5-original.svg" },
-      { "name": "CSS", "image": "/images/css3-original.svg" },
-      { "name": "Postman", "image": "/images/postman-original.svg"}
+      { "name": "Java", "image": "/assets/java-original.svg" },
+      { "name": "C", "image": "/assets/c-original.svg" },
+      { "name": "C++", "image": "/assets/cplusplus-original.svg" },
+      { "name": "Spring", "image": "/assets/spring-original.svg" },
+      { "name": "PostgreSQL", "image": "/assets/postgresql-original.svg" },
+      { "name": "HTML", "image": "/assets/html5-original.svg" },
+      { "name": "CSS", "image": "/assets/css3-original.svg" },
+      { "name": "Postman", "image": "/assets/postman-original.svg"}
     ]
   }
   
