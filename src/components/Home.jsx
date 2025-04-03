@@ -1,7 +1,8 @@
-function Home(){
-    return(
-        <section className="py-10 text-center"></section>
-    );
+function Home() {
+    <section id="home" className="py-10 text-centern">
 
-}
-export default Home;
+    </section>
+    return <section id="home" className="py-10 text-center"></section>;
+  }
+
+  export default Home;

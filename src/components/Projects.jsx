@@ -5,6 +5,8 @@ function Projects() {
     { id: 1, name: "Projeto 1", description: "Descrição do projeto 1" },
     { id: 2, name: "Projeto 2", description: "Descrição do projeto 2" },
     { id: 3, name: "Projeto 3", description: "Descrição do projeto 3" },
+    { id: 4, name: "Projeto 4", description: "Descrição do projeto 4" },
+    { id: 5, name: "Projeto 5", description: "Descrição do projeto 5" },
   ]);
 
   return (

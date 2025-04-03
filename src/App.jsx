@@ -1,9 +1,11 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About";
-import Skill from "./components/Skill";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      <Skill />
+      <Skills />
       <Projects />
       <Footer />
     </div>
