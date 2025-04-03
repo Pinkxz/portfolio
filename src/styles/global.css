@@ -8,7 +8,7 @@
   }
   
   body {
-    background-color: #000000;
+    background-color: #272525;
     color: white;
   }
   
@@ -69,12 +69,12 @@ nav a:hover {
   /* Projetos */
   .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Sempre 3 colunas */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
   
   .grid div {
-    background-color: #1f2937;
+    background-color: #353131;
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s ease-in-out;

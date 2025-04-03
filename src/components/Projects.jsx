@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function Projects() {
   const [projects, setProjects] = useState([
-    { id: 1, name: "Projeto 1", description: "Descrição do projeto 1" },
+    { id: 1, name: "Projeto 1", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit." },
     { id: 2, name: "Projeto 2", description: "Descrição do projeto 2" },
     { id: 3, name: "Projeto 3", description: "Descrição do projeto 3" },
     { id: 4, name: "Projeto 4", description: "Descrição do projeto 4" },
