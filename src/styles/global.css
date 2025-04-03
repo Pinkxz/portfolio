@@ -83,10 +83,153 @@ nav a:hover {
   .grid div:hover {
     transform: scale(1.05);
   }
+  .project-card {
+    width: 300px;
+    height: 260px;
+    background-color: #353131;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
   
+  /* Reverter o comportamento da imagem */
+  .project-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantém a imagem dentro do espaço sem redimensionamento estranho */
+  }
+  
+  .project-card h3 {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Camada de overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Aparece no hover */
+  .project-card:hover .overlay {
+    opacity: 1;
+  }
+
+
+
+  
+
+/* Container do modal */
+.project-details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  max-width: 1000px;
+  height: auto; /* Altura ajustável conforme necessário */
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+/* Lado esquerdo (texto) */
+.project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Lado direito (imagem principal e miniaturas) */
+.project-media {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Imagem principal mais "wide" */
+.project-image {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+/* Miniaturas organizadas separadas */
+.thumbnail-container {
+  display: flex;
+  gap: 15px; /* Corrigido para um espaçamento uniforme */
+  margin-top: 10px;
+  justify-content: center;
+  flex-wrap: wrap; /* Evita que fiquem agrupadas em uma linha só */
+}
+
+/* Miniaturas com espaço adequado e destaque na ativa */
+.thumbnail {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s, border 0.3s;
+  border: 2px solid transparent;
+}
+
+/* Destaque na miniatura ativa */
+.thumbnail.active {
+  border-color: #969292;
+  transform: scale(1.1);
+}
+
+
+
+/* Botão de fechar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.close-btn:hover {
+  background: darkred;
+}
+
+
+
   /* Rodapé */
   footer {
-    background-color: #1f2937;
+    background-color: #2e2b26;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;

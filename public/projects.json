@@ -1,0 +1,45 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Projeto 1",
+        "description": "Descrição detalhada do Projeto 1.",
+        "images": [
+          "/assets/teste1.png",
+          "/assets/teste2.png",
+          "/assets/teste3.png"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Projeto 2",
+        "description": "Descrição dedsfasfasfalhada do Projeto 1.",
+        "images": [
+          "/assets/teste3.png",
+          "/assets/teste1.png",
+          "/assets/teste2.png"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Projeto 3",
+        "description": "Descriçãosgjsgjsgg dedsfasfasfalhada do Projeto 1.",
+        "images": [
+          "/assets/teste3.png",
+          "/assets/teste1.png",
+          "/assets/teste2.png"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Projeto 4",
+        "description": "Descrição dedsfasfasfalhadhafdhafha do Projeto 1.",
+        "images": [
+          "/assets/teste2.png",
+          "/assets/teste1.png",
+          "/assets/teste2.png"
+        ]
+      }
+    ]
+  }
+  
