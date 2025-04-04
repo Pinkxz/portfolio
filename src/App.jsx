@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
+      <title>Pinkxz</title>
       <NavBar />
       <Home />
       <About />

@@ -8,7 +8,8 @@
           "/assets/teste1.png",
           "/assets/teste2.png",
           "/assets/teste3.png"
-        ]
+        ],
+        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
       },
       {
         "id": 2,
@@ -17,8 +18,10 @@
         "images": [
           "/assets/teste3.png",
           "/assets/teste1.png",
-          "/assets/teste2.png"
-        ]
+          "/assets/teste2.png",
+          "/assets/teste3.png"
+        ],
+        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
       },
       {
         "id": 3,
@@ -28,7 +31,8 @@
           "/assets/teste3.png",
           "/assets/teste1.png",
           "/assets/teste2.png"
-        ]
+        ], 
+            "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
       },
       {
         "id": 4,
@@ -38,7 +42,8 @@
           "/assets/teste2.png",
           "/assets/teste1.png",
           "/assets/teste2.png"
-        ]
+        ],
+        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
       }
     ]
   }

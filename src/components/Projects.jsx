@@ -4,6 +4,7 @@ function Projects() {
   const [projects, setProjects] = useState([]);
   const [selectedProject, setSelectedProject] = useState(null);
   const [currentImage, setCurrentImage] = useState("");
+  const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
     fetch("/projects.json")
@@ -15,20 +16,22 @@ function Projects() {
   useEffect(() => {
     if (selectedProject) {
       const interval = setInterval(() => {
-        setCurrentImage((prevImage) => {
-          const currentIndex = selectedProject.images.indexOf(prevImage);
-          const nextIndex = (currentIndex + 1) % selectedProject.images.length;
-          return selectedProject.images[nextIndex];
-        });
-      }, 5000); // Troca a cada 3 segundos
-
-      return () => clearInterval(interval); // Limpa o intervalo ao fechar o modal
+        setImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.images.length);
+      }, 4500);
+      return () => clearInterval(interval);
     }
   }, [selectedProject]);
 
+  useEffect(() => {
+    if (selectedProject) {
+      setCurrentImage(selectedProject.images[imageIndex]);
+    }
+  }, [imageIndex, selectedProject]);
+
   const openProject = (project) => {
     setSelectedProject(project);
-    setCurrentImage(project.images[0]); // Define a primeira imagem como padrão
+    setCurrentImage(project.images[0]);
+    setImageIndex(0);
   };
 
   const closeProject = () => {
@@ -70,11 +73,24 @@ function Projects() {
                   key={index}
                   src={image}
                   alt={`Preview ${index}`}
-                  className={`thumbnail ${currentImage === image ? "active" : ""}`} // Adiciona a classe "active"
-                  onClick={() => setCurrentImage(image)}
+                  className={`thumbnail ${currentImage === image ? "active" : ""}`}
+                  onClick={() => {
+                    setCurrentImage(image);
+                    setImageIndex(index);
+                  }}
                 />
               ))}
             </div>
+          </div>
+
+          {/* Stack utilizada */}
+          <div className="project-stack">
+            <h4>Tecnologias Utilizadas:</h4>
+            <ul>
+              {selectedProject.stack.map((tech, index) => (
+                <li key={index}>{tech}</li>
+              ))}
+            </ul>
           </div>
         </div>
       )}
