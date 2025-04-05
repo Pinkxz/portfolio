@@ -17,7 +17,7 @@ export const Home = () => {
             loop
           />
         </hs>
-        <p className="text-gray-400 py-4 max-w-[700px] font-mono">
+        <p>
           Sou um programador apaixonado por programação back-end, em busca de
           aprender cada dia mais sobre programação de alto desempenho. |
           Atualmente estudando C++

@@ -2,48 +2,35 @@
     "projects": [
       {
         "id": 1,
-        "name": "Projeto 1",
-        "description": "Descrição detalhada do Projeto 1.",
+        "name": "Run Melinda, Run",
+        "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
         "images": [
-          "/assets/teste1.png",
-          "/assets/teste2.png",
-          "/assets/teste3.png"
+          "/assets/Run1.png",
+          "/assets/Run2.png",
+          "/assets/Run3.png"
         ],
-        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
+        "stack": ["AppGameKit", "BASIC"]
       },
       {
         "id": 2,
-        "name": "Projeto 2",
-        "description": "Descrição dedsfasfasfalhada do Projeto 1.",
+        "name": "GembaSQB",
+        "description": "Desafio pessoal, que consistia em fazer um sistema web complexo de gerenciamento de negócios, desde criação de comandas, gerenciamento de agenda, serviços, clientes/funcionários e gerenciamento e venda de produtos",
         "images": [
-          "/assets/teste3.png",
-          "/assets/teste1.png",
-          "/assets/teste2.png",
-          "/assets/teste3.png"
+          "/assets/gemba1.png",
+          "/assets/gemba2.png",
+          "/assets/gemba3.png"
         ],
-        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
+        "stack": ["Java", "Spring", "PostgreSQL", "Postman", "JavaScript", "HTML", "CSS"]
       },
       {
         "id": 3,
-        "name": "Projeto 3",
-        "description": "Descriçãosgjsgjsgg dedsfasfasfalhada do Projeto 1.",
+        "name": "WebIde Python",
+        "description": "Uma WebIde Python feita em JavaScript de maneira assíncrona e com worker, utilizando Pyodide e Codemirror.",
         "images": [
-          "/assets/teste3.png",
-          "/assets/teste1.png",
-          "/assets/teste2.png"
-        ], 
-            "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
-      },
-      {
-        "id": 4,
-        "name": "Projeto 4",
-        "description": "Descrição dedsfasfasfalhadhafdhafha do Projeto 1.",
-        "images": [
-          "/assets/teste2.png",
-          "/assets/teste1.png",
-          "/assets/teste2.png"
+          "/assets/IdeLogo.png",
+          "/assets/webIDE1.png"
         ],
-        "stack": ["React", "Node.js", "MongoDB", "Tailwind CSS"]
+        "stack": ["JavaScript", "HTML", "CSS"]
       }
     ]
   }

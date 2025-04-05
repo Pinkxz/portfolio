@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="bg-gray-900 text-white min-h-screen">
       <title>Pinkxz</title>
+      <link rel="icon" type="image/png" sizes="32x32" href="./assets/icone.png" />
       <NavBar />
       <Home />
       <About />

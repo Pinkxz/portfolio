@@ -1,6 +1,6 @@
 function Footer() {
     return (
-      <footer className="bg-gray-800 p-4 text-center mt-10">
+      <footer>
         <p>© 2025 Pinkxz - Todos os direitos reservados</p>
       </footer>
     );
