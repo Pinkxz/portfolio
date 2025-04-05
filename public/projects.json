@@ -20,7 +20,7 @@
           "/assets/gemba2.png",
           "/assets/gemba3.png"
         ],
-        "stack": ["Java", "Spring", "PostgreSQL", "Postman", "JavaScript", "HTML", "CSS"]
+        "stack": ["Java", "Spring", "PostgreSQL", "Postman", "JavaScript", "HTML", "CSS", "GitHub"]
       },
       {
         "id": 3,
@@ -30,7 +30,7 @@
           "/assets/IdeLogo.png",
           "/assets/webIDE1.png"
         ],
-        "stack": ["JavaScript", "HTML", "CSS"]
+        "stack": ["JavaScript", "HTML", "CSS", "GitHub"]
       }
     ]
   }

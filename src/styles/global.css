@@ -116,8 +116,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 85%;
-  max-width: 1000px;
+  width: auto;
+ /* max-width: 1000px;*/
   height: auto; /* Altura ajustável conforme necessário */
   background-color: #1f1f1f;
   border-radius: 10px;
@@ -144,19 +144,31 @@
   align-items: center;
 }
 
-/* Imagem principal mais "wide" */
+
 .project-image {
-  width: 600px;
-  height: 300px;
-  object-fit: cover;
+  width: 700px;
+  height: 400px;
+  object-fit: contain;
   border-radius: 8px;
   margin-right: 8px;
+}
+
+.project-stack {
+  font: bold;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.stack-item{
+  color: rgb(78, 221, 78);
+
 }
 
 /* Miniaturas organizadas separadas */
 .thumbnail-container {
   display: flex;
-  gap: 15px; /* Corrigido para um espaçamento uniforme */
+  gap: 35px; /* Corrigido para um espaçamento uniforme */
   margin-top: 10px;
   justify-content: center;
   flex-wrap: wrap; /* Evita que fiquem agrupadas em uma linha só */
@@ -167,7 +179,7 @@
   width: 65px;
   height: 65px;
   object-fit: cover;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   transition: transform 0.2s, border 0.3s;
   border: 2px solid transparent;

@@ -17,10 +17,10 @@ function Projects() {
     if (selectedProject) {
       const interval = setInterval(() => {
         setImageIndex((prevIndex) => (prevIndex + 1) % selectedProject.images.length);
-      }, 4500);
+      }, 7500);
       return () => clearInterval(interval);
     }
-  }, [selectedProject]);
+  }, [selectedProject]); 
 
   useEffect(() => {
     if (selectedProject) {
@@ -61,6 +61,15 @@ function Projects() {
             <h2>{selectedProject.name}</h2>
             <p>{selectedProject.description}</p>
           </div>
+                    {/* Stack utilizada */}
+          <div className="project-stack">
+            <h2>Tecnologias Utilizadas:</h2>
+            <ul>
+              {selectedProject.stack.map((tech, index) => (
+                <p className="stack-item" key={index}>{tech}</p>
+              ))}
+            </ul>
+          </div>
 
           {/* Imagem principal + Miniaturas */}
           <div className="project-image-container">
@@ -83,15 +92,7 @@ function Projects() {
             </div>
           </div>
 
-          {/* Stack utilizada */}
-          <div className="project-stack">
-            <h4>Tecnologias Utilizadas:</h4>
-            <ul>
-              {selectedProject.stack.map((tech, index) => (
-                <li key={index}>{tech}</li>
-              ))}
-            </ul>
-          </div>
+
         </div>
       )}
     </section>
