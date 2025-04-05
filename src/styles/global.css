@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: Arial, sans-serif;
     scroll-behavior: smooth;
   }
   
@@ -135,6 +135,30 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.redirect {
+  background-color: rgb(124, 92, 5);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.redirect:hover {
+  background-color: rgb(253, 194, 0);
+  transform: translateY(-1px);
+}
+
+.redirect:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 
 /* Lado direito (imagem principal e miniaturas) */
 .project-media {

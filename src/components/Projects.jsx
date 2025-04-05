@@ -60,8 +60,9 @@ function Projects() {
           <div className="project-description">
             <h2>{selectedProject.name}</h2>
             <p>{selectedProject.description}</p>
+            <button className="redirect"onClick={() => window.open(selectedProject.link, '_blank')}>Code</button>
           </div>
-                    {/* Stack utilizada */}
+           {/* Stack utilizada */}
           <div className="project-stack">
             <h2>Tecnologias Utilizadas:</h2>
             <ul>
