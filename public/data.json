@@ -3,12 +3,12 @@
       { "name": "Java", "image": "/assets/java-original.svg" },
       { "name": "C", "image": "/assets/c-original.svg" },
       { "name": "C++", "image": "/assets/cplusplus-original.svg" },
+      { "name": "R", "image": "assets/r.svg" },
       { "name": "Spring", "image": "/assets/spring-original.svg" },
       { "name": "PostgreSQL", "image": "/assets/postgresql-original.svg" },
       { "name": "Postman", "image": "/assets/postman-original.svg"},
       { "name": "HTML", "image": "/assets/html5-original.svg" },
       { "name": "CSS", "image": "/assets/css3-original.svg" }
- 
     ]
   }
   

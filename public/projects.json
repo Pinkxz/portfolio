@@ -13,7 +13,7 @@
       },
       {
         "id": 1,
-        "name": "Run Melinda, Run",
+        "name": "Run Melinda, Run!",
         "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
         "images": [
           "/assets/Run1.png",
@@ -21,7 +21,7 @@
           "/assets/Run3.png"
         ],
         "stack": ["AppGameKit", "BASIC"],
-        "link": "https://github.com/Pinkxz/Run-Melinda-Run-"
+        "link": "https://github.com/Pinkxz/Run-Melinda-Run"
       },
       {
         "id": 2,
