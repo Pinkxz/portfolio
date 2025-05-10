@@ -1,6 +1,17 @@
 {
     "projects": [
       {
+        "id": 0,
+        "name": "Highway Idiot!",
+        "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
+        "images": [
+          "/assets/Highway1.png",
+          "/assets/Highway2.png"
+        ],
+        "stack": ["AppGameKit", "BASIC"],
+        "link": "https://github.com/Pinkxz/Highway-Idiot"
+      },
+      {
         "id": 1,
         "name": "Run Melinda, Run",
         "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
