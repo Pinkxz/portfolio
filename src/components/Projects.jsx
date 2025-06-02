@@ -7,7 +7,7 @@ function Projects() {
   const [imageIndex, setImageIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/projects.json")
+    fetch("./projects.json")
       .then((response) => response.json())
       .then((data) => setProjects(data.projects))
       .catch((error) => console.error("Erro ao carregar projetos:", error));

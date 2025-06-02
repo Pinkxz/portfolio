@@ -4,7 +4,7 @@ function Skills() {
   const [skills, setSkills] = useState([]);
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch("./data.json")
       .then((response) => response.json())
       .then((data) => setSkills(data.skills))
       .catch((error) => console.error("Erro ao carregar skills:", error));
