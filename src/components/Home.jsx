@@ -11,6 +11,7 @@ export const Home = () => {
             strings={[
               "Back-End Developer;",
               "I love Java;",
+              "C/C++ <3;",
             ]}
             typeSpeed={110}
             backSpeed={55}
