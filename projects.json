@@ -1,0 +1,51 @@
+{
+    "projects": [
+      {
+        "id": 0,
+        "name": "Highway Idiot!",
+        "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
+        "images": [
+          "/assets/Highway1.png",
+          "/assets/Highway2.png"
+        ],
+        "stack": ["AppGameKit", "BASIC"],
+        "link": "https://github.com/Pinkxz/Highway-Idiot"
+      },
+      {
+        "id": 1,
+        "name": "Run Melinda, Run!",
+        "description": "Trabalho do primeiro semestre da faculdade, que consistia em fazer um jogo simples na engine 'AppGameKit', utilizando a linguagem BASIC.",
+        "images": [
+          "/assets/Run1.png",
+          "/assets/Run2.png",
+          "/assets/Run3.png"
+        ],
+        "stack": ["AppGameKit", "BASIC"],
+        "link": "https://github.com/Pinkxz/Run-Melinda-Run"
+      },
+      {
+        "id": 2,
+        "name": "GembaSQB",
+        "description": "Desafio pessoal, que consistia em fazer um sistema web complexo de gerenciamento de negócios, desde criação de comandas, gerenciamento de agenda, serviços, clientes/funcionários e gerenciamento e venda de produtos",
+        "images": [
+          "/assets/gemba1.png",
+          "/assets/gemba2.png",
+          "/assets/gemba3.png"
+        ],
+        "stack": ["Java", "Spring", "PostgreSQL", "Postman", "JavaScript", "HTML", "CSS", "GitHub"],
+        "link": "https://github.com/Pinkxz/gembasqb"
+      },
+      {
+        "id": 3,
+        "name": "WebIde Python",
+        "description": "Uma WebIde Python feita em JavaScript de maneira assíncrona e com worker, utilizando Pyodide e Codemirror.",
+        "images": [
+          "/assets/IdeLogo.png",
+          "/assets/webIDE1.png"
+        ],
+        "stack": ["JavaScript", "HTML", "CSS", "GitHub"],
+        "link": "https://github.com/Pinkxz/WebIDE-python"
+      }
+    ]
+  }
+  
